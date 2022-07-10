@@ -26,16 +26,23 @@ define( 'DB_NAME', 'webapp' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
+if ( !defined('WP_CLI') ) {
+    define( 'WP_SITEURL', $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] );
+    define( 'WP_HOME',    $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] );
+}
+
+
 
 /**#@+
  * Authentication unique keys and salts.
@@ -48,14 +55,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'hRdu2PN&Yn2@HT]6NVbm~ws&bkMFwxWL7sUCK21=.lc=!IpuWKUtR enVs)ehpCF' );
-define( 'SECURE_AUTH_KEY',  'j#W@iGOF^E(.)+(2>S_Kv6>YxI/!>uDc1];OPzN^>{?|G6/,=ov,McYkgCO<x;($' );
-define( 'LOGGED_IN_KEY',    '#9j [U_iUL&Bm6z]JR_}/@$%@<pq9DW&bHJr+XY2;NxILQ r[H}-f|o}4z f,2C4' );
-define( 'NONCE_KEY',        'Y:;Q_< -]S~MRM5lJbSqCBW$DKU+H`0.R,Irq&, /I{B77vt4GkC(RK=(Tf,0sL8' );
-define( 'AUTH_SALT',        'y>LDQ[He2h )yCJ>ub(#rctolY8Dn&Z++:< Qoma)+*%%awNy0D9V~1UbI2$YdE ' );
-define( 'SECURE_AUTH_SALT', '4,dRS/s{B/TuV+ufmZ*}fkT6gCWaQoUF]=:72x;+:7X,@[P-Q6uu%kGGS6a/Sd!z' );
-define( 'LOGGED_IN_SALT',   '8Wblh_=])m1>!7?X4oN?40(TtNl,K)6U~/&zCI h/x`Sh134Kx;t26euew(Tn}.L' );
-define( 'NONCE_SALT',       'Hi/C4L^lCNlEb*evY`G23`a2!Ysit2`W?N&szxTzDBX9LK96D@K8EcQR-oMIMKM(' );
+define( 'AUTH_KEY',         'MOg64b05izbkN3iK6zbtd0EncFtU89SnJmdDx2dGL00tw4Hgrr7b9clCy10TY22h' );
+define( 'SECURE_AUTH_KEY',  'xiyHiInMdGLyH7sQO5xD6WTcKLgsBH6GXN3CR75mrPtQMr0H3q3Jwmtt2D1muJPz' );
+define( 'LOGGED_IN_KEY',    'OMN2OPYBBXTLpSEBmqTq5FsNtrnNMKWVLqimB2Qn1JjnsTquyuvW4ueFXXJGJstk' );
+define( 'NONCE_KEY',        'fpJHjaNugvZYYK1u0P24NLYF2No2dN8MDuAFjEA1ApLLd06TMNcx9qqE8qyXqN4e' );
+define( 'AUTH_SALT',        'Om3Eo7Yc0GEyBviSLRma7lPXeHwztEXy0tF3B377bwirEtfMKvu2SOn3gDRoQ2aE' );
+define( 'SECURE_AUTH_SALT', 'FMqe6RKOvLQubdHRpyFBIN1XXPGkOkOPoQB4sRmiNQvgPGiJ0QCMOswCBJKWsLMJ' );
+define( 'LOGGED_IN_SALT',   'PuewK7XwoqXos8q7zjwJOZ4vlkDRG3lnL4zeg6yHqKWMax7TVHfiSJzJp0PoVJe6' );
+define( 'NONCE_SALT',       '4vuHvJNRxoAGdt3uTVA7fONW5c70ZChYBRuYOnEViFpimlLNAMpmhy6AhWChFyz1' );
 
 /**#@-*/
 

@@ -37,7 +37,7 @@ get_header();
                             <span class="circle"></span>
                         </span> -->
                         <div class="timeline_imagewrapper">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;" id="testsvg">
                                 <defs>
                                     <clipPath id="__lottie_element_2">
                                         <rect width="440" height="440" x="0" y="0"></rect>
@@ -68,7 +68,7 @@ get_header();
                                             </path>
                                         </g>
                                     </g>
-                                    <g clip-path="url(#__lottie_element_28)" fill="rgb(23,23,27)" font-size="36" font-family="Atlas Grotesk" font-style="normal" font-weight="200" aria-label="Learn" transform="matrix(1,0,0,1,245.2239990234375,215.99099731445312)" opacity="1" style="display: block;">
+                                    <g clip-path="url(#__lottie_element_28)" fill="rgb(23,23,27)" font-size="36" font-family="Atlas Grotesk" font-style="normal" font-weight="200" aria-label="Learn" transform="matrix(1,0,0,1,245.2239990234375,215.99099731445312)" opacity="1" style="display: block;" id="">
                                         <path stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" d=" M4.1,0 C4.1,0 20.99,0 20.99,0 C20.99,0 20.99,-2.28 20.99,-2.28 C20.99,-2.28 6.67,-2.28 6.67,-2.28 C6.67,-2.28 6.67,-27.74 6.67,-27.74 C6.67,-27.74 4.1,-27.74 4.1,-27.74 C4.1,-27.74 4.1,0 4.1,0z" transform="matrix(1,0,0,1,-83.75,8.3677978515625)" opacity="1" style="display: inherit;"></path>
                                         <path stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" d=" M15.34,-10.84 C15.34,-10.84 4.5,-10.84 4.5,-10.84 C4.82,-14.76 6.71,-17.51 10.26,-17.51 C14.28,-17.51 15.3,-13.99 15.34,-11.02 C15.34,-11.02 15.34,-10.84 15.34,-10.84z M17.58,-4.75 C17.58,-4.75 15.19,-4.75 15.19,-4.75 C14.86,-3.7 13.74,-1.52 10.41,-1.52 C6.42,-1.52 4.6,-4.31 4.46,-8.92 C4.46,-8.92 17.87,-8.92 17.87,-8.92 C17.87,-8.92 17.87,-10.48 17.87,-10.48 C17.87,-14.97 15.88,-19.47 10.26,-19.47 C4.86,-19.47 1.92,-15.12 1.92,-9.35 C1.92,-3.41 4.57,0.47 10.37,0.47 C14.1,0.47 16.89,-1.85 17.58,-4.75z" transform="matrix(1,0,0,1,-62.11399841308594,8.3677978515625)" opacity="1" style="display: inherit;">
                                         </path>
@@ -79,9 +79,9 @@ get_header();
                                         <path stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" d=" M15.7,0 C15.7,0 18.2,0 18.2,0 C18.2,0 18.2,-12.91 18.2,-12.91 C18.2,-17.26 16.35,-19.47 12.25,-19.47 C9.1,-19.47 6.96,-17.76 5.95,-15.63 C5.95,-15.63 5.87,-15.63 5.87,-15.63 C5.87,-15.63 5.87,-19 5.87,-19 C5.87,-19 3.52,-19 3.52,-19 C3.52,-19 3.52,0 3.52,0 C3.52,0 6.05,0 6.05,0 C6.05,0 6.05,-11.2 6.05,-11.2 C6.05,-14.47 7.79,-17.33 11.67,-17.33 C13.16,-17.33 14.21,-16.89 14.86,-15.99 C15.55,-15.05 15.7,-13.6 15.7,-12 C15.7,-12 15.7,0 15.7,0z" transform="matrix(1,0,0,1,-10.633999824523926,8.3677978515625)" opacity="1" style="display: inherit;">
                                         </path>
                                     </g>
-                                    <g transform="matrix(1,0,0,1,62.75,219.25)" opacity="1" style="display: block;">
+                                    <g transform="matrix(1,0,0,1,62.75,219.25)" opacity="1" id="etest1" style="display: block;">
                                         <g opacity="1" transform="matrix(0.9873800277709961,0,0,0.9873800277709961,146.25,-8.25)">
-                                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(230,43,51)" stroke-opacity="1" stroke-width="12" d=" M0,-158.25 C3.1019999980926514,-158.25 6.184000015258789,-158.16099548339844 9.243000030517578,-157.98399353027344">
+                                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(230,43,51)" stroke-opacity="1" stroke-width="12" d=" M0,-158.25 C87.33817291259766,-158.25 158.25,-87.33817291259766 158.25,0 C158.25,8.42199993133545 157.59100341796875,16.69099998474121 156.3209991455078,24.759000778198242">
                                             </path>
                                         </g>
                                     </g>
@@ -199,7 +199,7 @@ get_header();
                     </div>
                 </div>
                 <div class="company-timeline-slider">
-                    <div class="company-timeline-block has-media active">
+                    <div class="company-timeline-block has-media active company-timeline-block1">
                         <div class="block-inner">
                             <span class="timeline-date">2010</span><span class="circle"></span>
                             <div class="image-block"><img src="https://i.picsum.photos/id/113/536/354.jpg?hmac=9k5_1urBRXvAPYzEuQ-ZCGDqfsKNdgBVAe1C-c82f24" alt=""></div>
