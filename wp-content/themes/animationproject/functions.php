@@ -151,7 +151,7 @@ function animationproject_scripts() {
 
 	wp_enqueue_script('animationproject-gsap', 'https://unpkg.co/gsap@3/dist/gsap.min.js', array(), _S_VERSION, true);
 	wp_enqueue_script('animationproject-ScrollTrigger', 'https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js', array(), _S_VERSION, true);
-	wp_enqueue_script('DrawSVGPlugin3-ScrollTrigger', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js', array(), _S_VERSION, true);
+	wp_enqueue_script('DrawSVGPlugin3-ScrollTrigger', get_template_directory_uri() . '/assets/js/DrawSVGPlugin3.min.js', array(), _S_VERSION, true);
 	wp_enqueue_script('MotionPathPlugin-ScrollTrigger', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/MotionPathPlugin.min.js', array(), _S_VERSION, true);
 	wp_enqueue_script('animationproject-custom', get_template_directory_uri() . '/assets/js/custom.js', array(), _S_VERSION, true);
 }

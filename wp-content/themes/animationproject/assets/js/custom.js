@@ -57,7 +57,7 @@ gsap.from('#etest1 path', {
 
 // .from("#etest1 path", {drawSVG: 0}, 0)
 // .to("#etest1 path", {motionPath: {
-//     path: "#etest1 path", 
+//     path: "#etest1 path",
 //     align:"#etest1 path",
 //     alignOrigin: [0.5, 0.5],
 //   }}, 0)
@@ -85,7 +85,7 @@ gsap.from('#etest1 path', {
 // .to(".ball01", {duration: 0.01, autoAlpha: 1})
 // .from("#etest1", {drawSVG: 0}, 0)
 // .to(".ball01", {motionPath: {
-//   path: "#etest1", 
+//   path: "#etest1",
 //   align:"#etest1",
 //   alignOrigin: [0.5, 0.5],
 // }}, 0)
