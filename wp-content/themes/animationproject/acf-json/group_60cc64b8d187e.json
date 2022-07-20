@@ -1,0 +1,158 @@
+{
+    "key": "group_60cc64b8d187e",
+    "title": "Resource Detail Settings",
+    "fields": [
+        {
+            "key": "field_60cc64d22a72f",
+            "label": "Standard Page Hero",
+            "name": "standard_page_hero",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_60c02936413c6"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_60cc64ea2a730",
+            "label": "Resource Flexible Content Blocks",
+            "name": "resource_flexible_content_blocks",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_60d02425b2791": {
+                    "key": "layout_60d02425b2791",
+                    "name": "resource_wysiwyg",
+                    "label": "Resource WYSIWYG",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60d0242cb2792",
+                            "label": "Resource WYSIWYG",
+                            "name": "resource_wysiwyg",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60d023f9bc40c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60cc64feeddf1": {
+                    "key": "layout_60cc64feeddf1",
+                    "name": "related_resources",
+                    "label": "Related Resources",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60cc67289bed1",
+                            "label": "Related Resources",
+                            "name": "related_resources",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60cc654318943"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60d023c53bbf1": {
+                    "key": "layout_60d023c53bbf1",
+                    "name": "cta_callout",
+                    "label": "CTA Callout",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60d023cb3bbf2",
+                            "label": "CTA Callout",
+                            "name": "cta_callout",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60acaf32730a6"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Section",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "modified": 1658202740
+}

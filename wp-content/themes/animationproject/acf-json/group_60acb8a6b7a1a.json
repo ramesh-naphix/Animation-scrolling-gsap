@@ -1,0 +1,647 @@
+{
+    "key": "group_60acb8a6b7a1a",
+    "title": "Flexible Content Settings",
+    "fields": [
+        {
+            "key": "field_60acb8c3393a9",
+            "label": "Flexible Content Blocks",
+            "name": "flexible_content_blocks",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_60add064f976f": {
+                    "key": "layout_60add064f976f",
+                    "name": "awards",
+                    "label": "Awards",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60add06bf9770",
+                            "label": "Awards",
+                            "name": "awards",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60adcf9c7c882"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60d168c97864e": {
+                    "key": "layout_60d168c97864e",
+                    "name": "available_job_positions",
+                    "label": "Available Job Positions",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60d168cd7864f",
+                            "label": "Available Job Positions",
+                            "name": "available_job_positions",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60d1680f24014"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60af46c370f5e": {
+                    "key": "layout_60af46c370f5e",
+                    "name": "case_study_feature_callout",
+                    "label": "Case Study Feature Callout",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60af46c870f5f",
+                            "label": "Case Study Feature Callout",
+                            "name": "case_study_feature_callout",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60af4015319a1"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60adc514071ed": {
+                    "key": "layout_60adc514071ed",
+                    "name": "client_logos",
+                    "label": "Client Logos",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60adc542071ee",
+                            "label": "Client Logos",
+                            "name": "client_logos",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60adc41698a1c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60d02bd9748e5": {
+                    "key": "layout_60d02bd9748e5",
+                    "name": "contact_form",
+                    "label": "Form",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60d02bdc748e6",
+                            "label": "Form",
+                            "name": "contact_form",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60c8677c3fcf8"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60acb904393ac": {
+                    "key": "layout_60acb904393ac",
+                    "name": "cta_callout",
+                    "label": "CTA Callout",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60acb90c393ad",
+                            "label": "CTA Callout",
+                            "name": "cta_callout",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60acaf32730a6"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60bee2eda00de": {
+                    "key": "layout_60bee2eda00de",
+                    "name": "divider",
+                    "label": "Divider",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60bee2f1a00df",
+                            "label": "Divider",
+                            "name": "divider",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60bee2ae8f000"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60b71d58db259": {
+                    "key": "layout_60b71d58db259",
+                    "name": "feature_grid_component",
+                    "label": "Feature Grid Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60b71d5cdb25a",
+                            "label": "Feature Grid Component",
+                            "name": "feature_grid_component",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60b718bc3a56b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60d52f0565e7b": {
+                    "key": "layout_60d52f0565e7b",
+                    "name": "feature_grid_tiles",
+                    "label": "Feature Grid Tiles",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60d52f0d65e7c",
+                            "label": "Feature Grid Tiles",
+                            "name": "feature_grid_tiles",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60d3007c9427b"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60b49752fc3c3": {
+                    "key": "layout_60b49752fc3c3",
+                    "name": "icon_grid_tile_callout",
+                    "label": "Icon Grid Tile Callout",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60b49756fc3c4",
+                            "label": "Icon Grid Tile Callout",
+                            "name": "icon_grid_tile_callout",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60b4886d717b0"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60c9822e0bf82": {
+                    "key": "layout_60c9822e0bf82",
+                    "name": "image_header_with_wysiwig",
+                    "label": "Image Header With WYSIWIG",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60c982320bf83",
+                            "label": "Image Header With WYSIWIG",
+                            "name": "image_header_with_wysiwig",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60c981378d317"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60d030804642c": {
+                    "key": "layout_60d030804642c",
+                    "name": "locations",
+                    "label": "Locations",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60d030844642d",
+                            "label": "Locations",
+                            "name": "locations",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60d02aeab9a4f"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60b5931bc784f": {
+                    "key": "layout_60b5931bc784f",
+                    "name": "news_resources_callout",
+                    "label": "News\/Resources Callout",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60b59324c7850",
+                            "label": "News\/Resources Callout",
+                            "name": "news_resources_callout",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60b58856f2323"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60d2ea79e7b29": {
+                    "key": "layout_60d2ea79e7b29",
+                    "name": "space_between_components",
+                    "label": "Space Between Components",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60d2ea82e7b2a",
+                            "label": "Space Between Components",
+                            "name": "space_between_components",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60d2bd8b0e8a0"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60c98ba8b41a8": {
+                    "key": "layout_60c98ba8b41a8",
+                    "name": "title_copy",
+                    "label": "Title Copy",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60c98baeb41a9",
+                            "label": "Title Copy",
+                            "name": "title_copy",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60c98b1416294"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60c82df68ff15": {
+                    "key": "layout_60c82df68ff15",
+                    "name": "testimonial_image",
+                    "label": "Testimonial + Image",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60c82dfd8ff16",
+                            "label": "Testimonial + Image",
+                            "name": "testimonial_image",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60c82bc2e9410"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60acb8c93b11d": {
+                    "key": "layout_60acb8c93b11d",
+                    "name": "text_component",
+                    "label": "Text Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60acb8f2393ab",
+                            "label": "Text Component",
+                            "name": "text_component",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60aca71f466f0"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60d15a7ff7d05": {
+                    "key": "layout_60d15a7ff7d05",
+                    "name": "text_and_image_component",
+                    "label": "Text and Image Component",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60d15a83f7d06",
+                            "label": "Text and Image Component",
+                            "name": "text_and_image_component",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60d15891083dc"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_60ada9fe107c5": {
+                    "key": "layout_60ada9fe107c5",
+                    "name": "text_and_stats_callout",
+                    "label": "Text and Stats Callout",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60adaa06107c6",
+                            "label": "Text and Stats Callout",
+                            "name": "text_and_stats_callout",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60ada8623b3b3"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Section",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "views\/template-home.blade.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "views\/template-generic.blade.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "views\/template-campaign.blade.php"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "modified": 1658202767
+}

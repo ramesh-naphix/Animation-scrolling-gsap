@@ -37,7 +37,7 @@ get_header();
                             <span class="circle"></span>
                         </span> -->
                         <div class="timeline_imagewrapper">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;" id="testsvg">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;" id="testsvg">
                                 <defs>
                                     <clipPath id="__lottie_element_2">
                                         <rect width="440" height="440" x="0" y="0"></rect>
@@ -194,7 +194,76 @@ get_header();
                                         </path>
                                     </g>
                                 </g>
+                            </svg> -->
+
+                            <svg id="pie-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 408" width="440" height="440">
+                                <g id="clarify">
+                                    <path d="M349.42,62.58L208,204l141.42,141.42c36.19-36.19,58.58-86.19,58.58-141.42s-22.39-105.23-58.58-141.42h0Z" style="fill: #ff8b00;" />
+                                    <text transform="translate(298.91 220.88)" style="fill: #fff; font-family: MyriadPro-Semibold, &apos;Myriad Pro&apos;; font-size: 24px; font-weight: 700;">
+                                        <tspan x="0" y="0">C</tspan>
+                                        <tspan x="14.11" y="0" style="letter-spacing: 0em;">L</tspan>
+                                        <tspan x="26.04" y="0">ARIFY</tspan>
+                                    </text>
+                                </g>
+                                <g id="create">
+                                    <path d="M204,208L62.58,349.42c36.19,36.19,86.19,58.58,141.42,58.58s105.23-22.39,141.42-58.58L204,208h0Z" style="fill: #9d1991;" />
+                                    <text transform="translate(160.86 347.88)" style="fill: #fff; font-family: MyriadPro-Semibold, &apos;Myriad Pro&apos;; font-size: 24px; font-weight: 700;">
+                                        <tspan x="0" y="0">CRE</tspan>
+                                        <tspan x="40.13" y="0" style="letter-spacing: -.08em;">A</tspan>
+                                        <tspan x="53.45" y="0">TE</tspan>
+                                    </text>
+                                </g>
+                                <g id="embed">
+                                    <path d="M58.58,62.58C22.39,98.77,0,148.77,0,204s22.39,105.23,58.58,141.42L200,204,58.58,62.58h0Z" style="fill: #6f2a94;" />
+                                    <text transform="translate(39.67 220.88)" style="fill: #fff; font-family: MyriadPro-Semibold, &apos;Myriad Pro&apos;; font-size: 24px; font-weight: 700;">
+                                        <tspan x="0" y="0">EMBED</tspan>
+                                    </text>
+                                </g>
+                                <g id="align">
+                                    <path d="M204,0C148.77,0,98.77,22.39,62.58,58.58L204,200,345.42,58.58C309.23,22.39,259.23,0,204,0h0Z" style="fill: #ffaa0f;" stroke="black" />
+                                    <text transform="translate(167.53 77.88)" style="fill: #fff; font-family: MyriadPro-Semibold, &apos;Myriad Pro&apos;; font-size: 24px; font-weight: 700;">
+                                        <tspan x="0" y="0">ALIGN</tspan>
+                                    </text>
+                                </g>
                             </svg>
+
+                            <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="440" height="440">
+                                <path d="M200,0C89.54,0,0,89.54,0,200s89.54,200,200,200,200-89.54,200-200S310.46,0,200,0h0Z" style="fill: #9d1991;" />
+                            </svg> -->
+
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="374" height="374" viewBox="0 0 374 374" id="Layer_1">
+                                <defs>
+                                    <style>
+                                        .a,
+                                        .c {
+                                            fill: none;
+                                        }
+
+                                        .a {
+                                            stroke: #9d1991;
+                                            stroke-width: 190px;
+                                        }
+
+                                        .b {
+                                            stroke: none;
+                                        }
+                                    </style>
+                                </defs>
+                                <g class="a">
+                                    <circle class="b" cx="187" cy="187" r="187" />
+                                    <circle class="c" cx="187" cy="187" r="92" />
+                                </g>
+                            </svg> -->
+
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="263.246" height="185.985" viewBox="0 0 263.246 185.985" id="Layer_1">
+                                <g id="Path_4" data-name="Path 4" transform="translate(-4399.57 -1587.867)" fill="none">
+                                    <path d="M 4533.07421875 1587.86669921875 C 4533.46142578125 1587.86669921875 4533.85791015625 1587.867919921875 4534.24658203125 1587.870361328125 C 4616.9423828125 1588.390502929688 4662.8154296875 1642.02197265625 4662.8154296875 1642.02197265625 L 4620.818359375 1684.018676757812 L 4620.818359375 1698.956909179688 L 4606.98046875 1698.956909179688 L 4532.08544921875 1773.851928710938 L 4457.1904296875 1698.956909179688 L 4457.1904296875 1684.018676757812 L 4441.56689453125 1684.018676757812 L 4399.56982421875 1642.02197265625 C 4399.56982421875 1642.02197265625 4451.0546875 1587.86279296875 4533.07421875 1587.86669921875 Z" stroke="#ff8b00" fill="none" stroke-width="190" stroke-linejoin="bevel" />
+                                </g>
+                            </svg> -->
+
+                            <!-- <svg width="262" height="186" viewBox="0 0 262 186" fill="none" xmlns="http://www.w3.org/2000/svg" id="Layer_1">
+                                <path d="M96.5 55.5H69.385C87.179 46.7436 108.238 40 130.5 40C156.381 40 180.75 49.1127 200.285 59.9267L190.885 69.5504L188.492 72H187.931L176.216 83.7157L130.5 129.431L96.5 95.4315V55.5Z" stroke="black" stroke-width="80" />
+                            </svg> -->
                         </div>
                     </div>
                 </div>

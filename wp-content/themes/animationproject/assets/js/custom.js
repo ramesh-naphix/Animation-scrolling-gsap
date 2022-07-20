@@ -20,10 +20,24 @@ ScrollTrigger.create({
   toggleActions: "play none none reverse"
 });
 
-gsap.from('#etest1 path', {
-  drawSVG: '0%',
-    duration: 3,
+
+gsap.from('#align path', {
+  // drawSVG: "0%",
+  // fill: "#000000",
+  // scaleX:0,
+  // autoAlpha:0,
+  // y: 300,
+  // x:0,
+  // y:0,
+  width: 0,
+  ease: Power4.easeIn,
+  transformOrigin:'top center',
+  ease:'none',
+  stagger:0.3,
+  duration: 3,
     scrollTrigger: {
+      // width: 0,
+      // ease: Power4.easeIn,
       trigger: ".company-timeline-block",
       start: 'top',
       end: 'bottom',
@@ -33,7 +47,7 @@ gsap.from('#etest1 path', {
   }
 );
 
-// gsap.set('#etest1 path', { transformOrigin:'center', drawSVG:'0'})
+
 
 // var action = gsap.timeline({
 //   defaults:{duration:2, ease:'none'},
