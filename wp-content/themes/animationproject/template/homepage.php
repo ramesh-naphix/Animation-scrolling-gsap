@@ -196,7 +196,53 @@ get_header();
                                 </g>
                             </svg> -->
 
-                            <svg id="pie-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 408" width="440" height="440">
+                            <div class="svg_wrapper">
+                                <div class="svg_inner1">
+                                    <svg id="pie-svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 408" width="408" height="408">
+                                        <g id="clarify">
+                                            <path d="M349.42,62.58L208,204l141.42,141.42c36.19-36.19,58.58-86.19,58.58-141.42s-22.39-105.23-58.58-141.42h0Z" style="fill: #ff8b00;" />
+                                            <text transform="translate(298.91 220.88)" style="fill: #fff; font-family: MyriadPro-Semibold, &apos;Myriad Pro&apos;; font-size: 24px; font-weight: 700;">
+                                                <tspan x="0" y="0">C</tspan>
+                                                <tspan x="14.11" y="0" style="letter-spacing: 0em;">L</tspan>
+                                                <tspan x="26.04" y="0">ARIFY</tspan>
+                                            </text>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="svg_inner2">
+                                    <svg id="pie-svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 408" width="440" height="440">
+                                        <g id="create">
+                                            <path d="M204,208L62.58,349.42c36.19,36.19,86.19,58.58,141.42,58.58s105.23-22.39,141.42-58.58L204,208h0Z" style="fill: #9d1991;" />
+                                            <text transform="translate(160.86 347.88)" style="fill: #fff; font-family: MyriadPro-Semibold, &apos;Myriad Pro&apos;; font-size: 24px; font-weight: 700;">
+                                                <tspan x="0" y="0">CRE</tspan>
+                                                <tspan x="40.13" y="0" style="letter-spacing: -.08em;">A</tspan>
+                                                <tspan x="53.45" y="0">TE</tspan>
+                                            </text>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="svg_inner3">
+                                     <svg id="pie-svg3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 408" width="440" height="440">
+                                        <g id="embed">
+                                            <path d="M58.58,62.58C22.39,98.77,0,148.77,0,204s22.39,105.23,58.58,141.42L200,204,58.58,62.58h0Z" style="fill: #6f2a94;" />
+                                            <text transform="translate(39.67 220.88)" style="fill: #fff; font-family: MyriadPro-Semibold, &apos;Myriad Pro&apos;; font-size: 24px; font-weight: 700;">
+                                                <tspan x="0" y="0">EMBED</tspan>
+                                            </text>
+                                        </g>
+                                    </svg>
+                                </div>
+                                 <div class="svg_inner4">
+                                    <svg id="pie-svg4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 408" width="440" height="440">
+                                        <g id="align">
+                                            <path d="M204,0C148.77,0,98.77,22.39,62.58,58.58L204,200,345.42,58.58C309.23,22.39,259.23,0,204,0h0Z" style="fill: #ffaa0f;" />
+                                            <text transform="translate(167.53 77.88)" style="fill: #fff; font-family: MyriadPro-Semibold, &apos;Myriad Pro&apos;; font-size: 24px; font-weight: 700;">
+                                                <tspan x="0" y="0">ALIGN</tspan>
+                                            </text>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                            <svg id="pie-svg-all" style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 408" width="440" height="440">
                                 <g id="clarify">
                                     <path d="M349.42,62.58L208,204l141.42,141.42c36.19-36.19,58.58-86.19,58.58-141.42s-22.39-105.23-58.58-141.42h0Z" style="fill: #ff8b00;" />
                                     <text transform="translate(298.91 220.88)" style="fill: #fff; font-family: MyriadPro-Semibold, &apos;Myriad Pro&apos;; font-size: 24px; font-weight: 700;">
@@ -276,14 +322,14 @@ get_header();
                             <p>pscing elitr, sed pscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. At verpscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed pscing elitr, sed pscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. At verpscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. At verdiam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. pscing elitr, sed pscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. At verpscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed pscing elitr, sed pscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. At verpscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. At verdiam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptuat verdiam voluptua.</p>
                         </div>
                     </div>
-                    <div class="company-timeline-block active">
+                    <div class="company-timeline-block active company-timeline-block2">
                         <div class="block-inner">
                             <span class="timeline-date">2012</span><span class="circle"></span>
                             <h4>Lorem Ipsum Dolor 3</h4>
                             <p>pscing elitr, sed pscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. At verpscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed pscing elitr, sed pscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. At verpscing elitr, sed diam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. At verdiam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. At verdiam voluptua. At verdiam nonumy eirmod tempor invidunt ut labore gna aliquyam erat, sed diam voluptua. At verlorem </p>
                         </div>
                     </div>
-                    <div class="company-timeline-block has-media active">
+                    <div class="company-timeline-block has-media active company-timeline-block3">
                         <div class="block-inner">
                             <span class="timeline-date">2013</span><span class="circle"></span>
                             <div class="image-block"><img src="https://i.picsum.photos/id/113/536/354.jpg?hmac=9k5_1urBRXvAPYzEuQ-ZCGDqfsKNdgBVAe1C-c82f24" alt=""></div>
@@ -291,7 +337,7 @@ get_header();
                             <p>Lorem ipsum dolor sit amet, consetetur lorem ips sadipscing elitr, sed diam nonumy eirmorem ipsum dolor sit amet, consetetur lorem ips sadipscing elitr, sed diam nonumy eirmod.d.</p>
                         </div>
                     </div>
-                    <div class="company-timeline-block has-media active">
+                    <div class="company-timeline-block has-media active company-timeline-block4">
                         <div class="block-inner">
                             <span class="timeline-date">2016</span><span class="circle"></span>
                             <div class="image-block"><img src="https://i.picsum.photos/id/113/536/354.jpg?hmac=9k5_1urBRXvAPYzEuQ-ZCGDqfsKNdgBVAe1C-c82f24" alt=""></div>

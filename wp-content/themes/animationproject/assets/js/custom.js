@@ -20,29 +20,103 @@ ScrollTrigger.create({
   toggleActions: "play none none reverse"
 });
 
-
-gsap.from('#align path', {
+let svgInner4 = document.querySelector('.svg_inner4')
+gsap.from(svgInner4, {
   // drawSVG: "0%",
-  // fill: "#000000",
-  // scaleX:0,
-  // autoAlpha:0,
-  // y: 300,
-  // x:0,
-  // y:0,
-  width: 0,
+  width:'0',
   ease: Power4.easeIn,
-  transformOrigin:'top center',
+  // transformOrigin:'top center',
   ease:'none',
   stagger:0.3,
-  duration: 3,
+  duration: 5,
     scrollTrigger: {
-      // width: 0,
       // ease: Power4.easeIn,
-      trigger: ".company-timeline-block",
+      trigger: ".company-timeline-block1",
       start: 'top',
       end: 'bottom',
       scrub: 1,
-      markers: true
+      markers: false,
+      onEnter() {
+        svgInner4.classList.add('enable');
+      },
+      // onLeave() {
+      //   svgInner4.classList.remove('enable');
+      // },
+      // onEnterBack() {
+      //   svgInner4.classList.add('enable');
+      // },
+      // onLeaveBack() {
+      //   svgInner4.classList.remove('enable');
+      // }
+    }
+  }
+);
+
+let svgInner1= document.querySelector('.svg_inner1')
+gsap.from(svgInner1, {
+  height:'0',
+  ease: Power4.easeIn,
+  // transformOrigin:'top center',
+  ease:'none',
+  stagger:0.3,
+  duration: 5,
+    scrollTrigger: {
+      // width: 0,
+      // ease: Power4.easeIn,
+      trigger: ".company-timeline-block2",
+      start: 'top',
+      end: 'right',
+      scrub: 1,
+      markers: true,
+      onEnter() {
+        svgInner1.classList.add('enable');
+      },
+    }
+  }
+);
+
+let svgInner2= document.querySelector('.svg_inner2')
+gsap.from(svgInner2, {
+  width:'0',
+  ease: Power4.easeIn,
+  // transformOrigin:'top center',
+  ease:'none',
+  stagger:0.3,
+  duration: 5,
+    scrollTrigger: {
+      // width: 0,
+      // ease: Power4.easeIn,
+      trigger: ".company-timeline-block3",
+       start: 'top',
+      end: 'right',
+      scrub: 1,
+      markers: true,
+      onEnter() {
+        svgInner2.classList.add('enable');
+      },
+    }
+  }
+);
+
+let svgInner3= document.querySelector('.svg_inner3')
+gsap.from(svgInner3, {
+  height:'0',
+  ease: Power4.easeIn,
+  // transformOrigin:'top left',
+  ease:'none',
+  stagger:0.3,
+  duration: 5,
+    scrollTrigger: {
+      // width: 0,
+      // ease: Power4.easeIn,
+      trigger: ".company-timeline-block4",
+      start: 'top',
+      end: 'right',
+      scrub: 1,
+      markers: true,
+      onEnter() {
+        svgInner3.classList.add('enable');
+      },
     }
   }
 );

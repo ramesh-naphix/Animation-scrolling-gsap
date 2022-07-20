@@ -1180,3 +1180,79 @@ textarea {
 .company-timeline-block p {
 	line-height: 1.75;
 }
+
+.svg_wrapper {
+	position: relative;
+	width: 408px;
+	height: 408px;
+}
+
+.svg_inner1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	width: 408px;
+	height: 408px;
+	overflow: hidden;
+	visibility: hidden;
+}
+	
+.svg_inner1.enable {
+	visibility: visible;
+}
+
+.svg_inner2 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	width: 408px;
+	height: 408px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.svg_inner2.enable {
+	visibility: visible;
+}
+
+.svg_inner3 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: 0;
+	width: 408px;
+	height: 408px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.svg_inner3.enable {
+	visibility: visible;
+}
+
+.svg_inner4 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	width: 408px;
+	height: 408px;
+	/* width: 0; */
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.svg_inner4.enable {
+	visibility: visible;
+}
+
+.svg_wrapper svg {
+	/* width: 100%;
+	height: auto; */
+	width: 408px;
+	height: 408px;
+}
